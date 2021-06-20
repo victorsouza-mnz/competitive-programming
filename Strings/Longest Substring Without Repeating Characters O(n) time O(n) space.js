@@ -1,3 +1,7 @@
+//https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/
+
+
+
 const string  = "au"
 
 
@@ -9,7 +13,6 @@ const func = () => {
     let max_size = 0
     if (string.length === 1 ) return 1
     while (p2 < string.length){
-        console.log(hash)
         if (hash[string[p2]] === undefined || hash[string[p2]] === 0) {
             hash[string[p2]] = 1
             p2++
