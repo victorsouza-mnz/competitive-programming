@@ -1,4 +1,4 @@
-#https://www.urionlinejudge.com.br/judge/pt/runs/code/23868033
+#https://www.urionlinejudge.com.br/judge/pt/problems/view/1610
 
 def resolve ():
     n,m = [int(x) for x in input().split()]
